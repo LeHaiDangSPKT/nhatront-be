@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 
 const YearOfActivity = new Schema(
   {
-    year: { type: String, required: true },
+    year: { type: String },
   },
   {
     timestamps: true,

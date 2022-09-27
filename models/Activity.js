@@ -4,10 +4,10 @@ const Schema = mongoose.Schema;
 
 const Activity = new Schema(
   {
-    name: { type: String, required: true },
-    title: { type: String, required: true },
+    name: { type: String },
+    title: { type: String },
     link: { type: String },
-    state: { type: String, required: true },
+    state: { type: String },
     imgActivity: { type: String },
   },
   {
