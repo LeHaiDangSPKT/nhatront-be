@@ -4,9 +4,9 @@ const Schema = mongoose.Schema;
 
 const Wards = new Schema(
   {
-    name: { type: String, required: true },
-    imgWardMain: { type: String, required: true },
-    imgWardSub: { type: String, required: true },
+    name: { type: String },
+    imgWardMain: { type: String },
+    imgWardSub: { type: String },
   },
   {
     timestamps: true,
